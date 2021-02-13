@@ -14,7 +14,7 @@ export const EmployeeCreate = () => {
             <div className="infoScreenContainer">
                 <Form onSubmit={handleSubmit}>
                     <div className="options">
-                        <p className="title">Adicionar colaborador</p>
+                        <p className="title">Aadicionar colaborador</p>
                         <button type="button" onClick={() => {
                             window.location="/";
                         }} className="inativarB">Cancelar</button>

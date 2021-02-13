@@ -1,0 +1,637 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background: url(https://cdn.wallpapersafari.com/46/56/gtsUGR.jpg) no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.texto{
+  height: 430px;
+  margin: 0% 0 0 5%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.f1{
+  margin: 0px;
+  font-size: 80px;
+  font-weight: bolder;
+  text-align: left;
+}
+
+.f2{
+  text-align: left;
+  margin: 0;
+  white-space: normal;
+  font-size: 70px;
+  font-weight:lighter;
+}
+
+.logo{
+  margin: auto 0 0 0;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+
+.div-login{
+  margin: 0 5% 0 0;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: white;
+  border-radius: 2px;
+  color: black;
+}
+
+.div-login p{
+  margin-bottom: 25px;
+  padding-left: 5%;
+  text-align: left;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.div-login input{
+  margin: 5% 0 0 0;
+  padding: 2% 2%;
+  color: black;
+  font-size: 16px;
+  align-self: center;
+  width: 85%;
+  border: none;
+  border-bottom: 2px solid #ededed;
+}
+
+.div-login #remember{
+  margin-bottom: 25px;
+  padding-right: 5%;
+  align-self: flex-end;
+  font-size: 16px;
+  font-weight:lighter ;
+  /*color:#0066f0;*/
+  color: #026af4;
+}
+
+.div-login button{
+  background-color: #0066f0;
+  margin: 5% 0;
+  padding: 4% 2%;
+  color: white;
+  font-size: 16px;
+  align-self: center;
+  width: 85%;
+  border: 2px solid #0066f0;
+  border-radius: 4px;
+}
+
+/* navBar */
+
+.topBar{
+  z-index: 2;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 12.7vh;
+  background: #fff;
+  box-shadow: 0px 0px 5px #888888;
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+  margin: 0px 3%;
+}
+
+.container2{
+  display: flex;
+  align-items: center;
+  margin: 0 1% 0 auto;
+}
+
+.container2 p{
+  display: inline-block;
+  width: 108px;
+  font-size: 12px;
+  font-weight: bolder;
+  color: #acacac;
+}
+
+.icons{
+  width: 25px;
+  height: 25px;
+  margin: 0px 2%;
+  color: #acacac;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 18px;
+  height: 2px;
+  background-color: #acacac;
+  margin: 3px 0;
+}
+
+/* CORPO */
+.corpo{
+  display: flex;
+  flex-direction: row;
+}
+
+/*leftNavBar*/
+.left{
+  z-index: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  width: 90px;
+  height: 87.3vh;
+  background: #fff;
+  box-shadow: 0px 0px 5px #888888;
+}
+
+.left .card{
+  border-top: 1px solid #acacac;
+  margin-top: -1px;
+  padding: 15% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 15%;
+}
+
+.left .card p{
+  display: inline-block;
+  font-size: 0.6em;
+  font-weight: 500;
+  text-align: center;
+  color: #656f75;
+}
+
+.left .lIcons{
+  color: #1b76f1;
+  width: 100%;
+  height: 100%;
+}
+
+/*LIST SCREEN */
+.listScreenContainer{
+  background-color: #f8f8f8;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.listScreenContainer .title{
+  margin: 20px 30px 5px 30px;
+  padding: 0px 0px 15px 5px;
+  border-bottom: 1px solid rgb(134, 134, 134);
+  font-size: 20px;
+  display: block;
+  color: #656f75;
+}
+
+.listScreenContainer .teste{
+  padding: 2px 10px;
+  color: #acacac;
+  border: none;
+  background-color: #f8f8f8;
+  font-size: 11px;
+  width: 50px;
+}
+.listScreenContainer .teste::placeholder{
+  color: #acacac;
+}
+
+.listScreenContainer .inputs{
+  display: flex;
+  flex-direction: row;
+  margin: 5px 30px 5px 25px;
+}
+
+.listScreenContainer .inputs select{
+  color: #acacac;
+  border: 1.5px solid #acacac;
+  background-color: #f8f8f8;
+  padding: 0px 5px;
+  border-radius: 15px;
+  font-size: 11px;
+  width: 100px;
+}
+
+.listScreenContainer .inputs .procurar{
+  display: flex;
+  margin: 0px 10px;
+  align-items: center;
+  border-radius: 15px;
+  padding: 0px 5px;
+  border: 1.5px solid #acacac;
+}
+
+.listScreenContainer .inputs .procurar .icons{
+  color: #acacac;
+  height: 15px;
+}
+
+.painelColab{
+  position: relative;
+  width: auto;
+  height: 72.5vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start
+}
+
+.painelColab .cardUser{
+  margin: 20px 30px 0px 30px;
+  border-radius: 5px;
+  width: 45%;
+  height: 70px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 0px 3px 10px -4px #888888;
+}
+
+.painelColab .cardUser .userIcon{
+  margin: 0px 20px;
+  width: 50px;
+  height: 50px;
+}
+
+.painelColab .cardUser .userName{
+  color: #656f75;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/*infoScreenContainer*/
+.infoScreenContainer{
+  background-color: #f8f8f8;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.infoScreenContainer .options{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px 30px;
+  border-bottom: 1px solid rgb(134, 134, 134);
+  height: 60px;
+}
+
+.infoScreenContainer .options .inativarB{
+  margin-left: auto;
+  margin-right: 5px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 15px;
+  background-color: red;
+  color: white;
+}
+
+.infoScreenContainer .options .editarB{
+  margin: 0px 5px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 15px;
+  background-color: #0066f0;
+  color: white;
+}
+
+.infoScreenContainer .options .title{
+  margin: 0px;
+  padding-left: 5px;
+  font-size: 20px;
+  display: block;
+  color: #656f75;
+}
+
+.infoScreenContainer .infos{
+  display: flex;
+  flex-direction: row;
+}
+
+.infoScreenContainer .infos .cardInfo{
+  width: 360px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 3px 10px -4px #888888;
+  margin: 15px 0px 0px 30px
+}
+
+.infoScreenContainer .infos .cardInfo .info1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 15px 25px;
+}
+
+.infoScreenContainer .infos .cardInfo .info1 .user{
+  width: 50px;
+  height: 50px;
+}
+
+.infoScreenContainer .infos .cardInfo .info1 div{
+  display: flex;
+  flex-direction: column;
+}
+
+.infoScreenContainer .infos .cardInfo .info1 div p{
+  margin: 0px 5px;
+}
+
+.infoScreenContainer .infos .cardInfo .info1 div .name{
+  font-size: 19px;
+  font-weight: 500;
+  color: #52585c;
+}
+
+.dados{
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #52585c;
+}
+
+.dados2{
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #f0b602;
+}
+
+.infoScreenContainer .infos .cardInfo .info2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 15px 25px;
+}
+
+.titleD{
+  margin: 10px 0px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #52585c;
+}
+
+.infoScreenContainer .infos .cardInfo .info2 .info2_1{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.titleD2{
+  margin: 0px 0px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #52585c;
+}
+
+.infoScreenContainer .infos .cardInfo .info2 .info2_1 .info2_1_1{
+  margin-left: 20px;
+}
+
+.infoScreenContainer .infos .cardInfo .info3{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 40px 25px 40px 25px;
+}
+
+.infoScreenContainer .infos .cardInfo .info3 .info3_1{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.infoScreenContainer .infos .cardInfo .info3 .info3_1 .info3_1_1{
+  margin-left: 20px;
+}
+
+.titleD3{
+  margin: 0px 0px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #0066f0;
+}
+
+.infoScreenContainer .infos .hPainel{
+  width: 650px;
+  height: 450px;
+  /*background-color: rgb(209, 209, 255);*/
+  margin: 15px 0px 0px 90px
+}
+
+.infoScreenContainer .infos .hPainel .hPainel2{
+  width: auto;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 3px 10px -4px #888888;
+  display: flex;
+  align-items: center;
+}
+
+.titleH{
+  font-size: 20px;
+  color: #444a4e;
+}
+
+.infoScreenContainer .infos .hPainel .hPainel2 .titleH{
+  margin: 0px 25px;
+}
+.infoScreenContainer .infos .hPainel .hPainel3{
+  /*background-color: blueviolet;*/
+  width: auto;
+  height: 390px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-between;
+}
+
+.infoScreenContainer .infos .hPainel .hPainel3 .hCard{
+  width: 47%;
+  height: 120px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 3px 10px -4px #888888;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.infoScreenContainer .infos .hPainel .hPainel3 .hCard .hCardInfo{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  margin: 0px 12px;
+}
+
+.infoScreenContainer .infos .hPainel .hPainel3 .hCard .hCardInfo .dia{
+  font-size: 40px;
+  font-weight: bold;
+  color: #444a4e;
+  line-height: 0.7;
+  margin: 0;
+}
+
+.infoScreenContainer .infos .hPainel .hPainel3 .hCard .hCardInfo .titleH{
+  margin: 0;
+}
+
+.infoScreenContainer .infos .hPainel .hPainel3 .hCard .hCardInfo .titleD2{
+  margin-top: 5px;
+}
+
+.infoScreenContainer .infos .hPainel .hPainel3 .hCard .hCardInfo .dados{
+  line-height: 0.7;
+}
+
+.infoScreenContainer .infos .hPainel .hPainel3 .hCard .hCardInfo .dados2{
+  line-height: 0.7;
+}
+
+/* ADDSCREEN */
+.addCard .info1 .circle{
+  background-color: rgb(216, 216, 216);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  position: relative;
+}
+
+.addCard .info1 .circle .camera{
+  position: absolute;
+  color: #aaa;
+  top: 30%;
+  width: 100%;
+  height: 25px;
+}
+
+.addCard .info1 .tbNome{
+  margin: 0 10px 0 10px;
+  width: auto;
+  padding: 10px 5px;
+  border: none;
+  border-bottom: 2px solid #ededed;
+  color: #acacac;
+  font-size: 17px;
+}
+
+.addCard .info1 .tbNome::placeholder{
+  color: #acacac;
+}
+
+.tbDados{
+  width: auto;
+  padding: 6px 0px;
+  border: none;
+  border-bottom: 2px solid #ededed;
+  color: #acacac;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+#cpf{
+  width: 90px;
+}
+
+#email{
+  width: 178px;
+}
+
+.tbDados::placeholder{
+  color: #d4d4d4;
+}
+
+.add3_1{
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start;
+}
+
+.add3_1 .tbDados{
+  width:120px;
+}
+
+#hSaida{
+  margin-left: 20px;
+  width:110px;
+}
+
+#haSaida{
+  margin-left: 20px;
+  width:110px;
+}
+
+.infoScreenContainer .infos .addCard{
+  width: 360px;
+  height: 460px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 3px 10px -4px #888888;
+  margin: 15px 0px 0px 30px
+}
+
+.infoScreenContainer .infos .addCard .info1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 15px 25px;
+}
+
+.infoScreenContainer .infos .addCard .info2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 15px 25px;
+}
+
+.infoScreenContainer .infos .addCard .info2 .info2_1{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.infoScreenContainer .infos .addCard .info3{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px 25px 40px 25px;
+}
+
+.hasError {
+  color: #e42727;
+  margin-left: 35px;
+}
+
+.hidden {
+  display: none;
+}

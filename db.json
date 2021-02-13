@@ -1,0 +1,40 @@
+{
+  "employees": [
+    {
+      "id": 2,
+      "name": "Jonny",
+      "document": "654321",
+      "phone": "213456789",
+      "email": "jonny@teste.com",
+      "role": "Dev",
+      "workHourBegin": "",
+      "workHourEnd": "",
+      "lunchTimeBegin": "",
+      "lunchTimeEnd": ""
+    },
+    {
+      "id": 3,
+      "name": "Teste",
+      "document": "123456",
+      "phone": "213456789",
+      "email": "teste2@teste.com",
+      "role": "RH",
+      "workHourBegin": "",
+      "workHourEnd": "",
+      "lunchTimeBegin": "",
+      "lunchTimeEnd": ""
+    },
+    {
+      "name": "",
+      "document": "",
+      "email": "",
+      "phone": "",
+      "role": "",
+      "workHourBegin": "",
+      "workHourEnd": "",
+      "lunchTimeBegin": "",
+      "lunchTimeEnd": "",
+      "id": 4
+    }
+  ]
+}

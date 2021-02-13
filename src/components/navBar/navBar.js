@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import { AiOutlineBell } from "react-icons/ai";
 import { AiTwotoneAppstore } from "react-icons/ai";
 import { BiUserCircle } from "react-icons/bi";
+import { FiLogOut } from "react-icons/fi";
 
 class NavBar extends Component{
     render(){
@@ -17,6 +18,10 @@ class NavBar extends Component{
                         <AiTwotoneAppstore className="icons"/>
                         <p>{ localStorage.getItem('user') }</p>
                         <BiUserCircle onClick={this.exibirPerfil} className="icons"/>
+                        <FiLogOut className="icons" onClick={() => {
+                            localStorage.removeItem('isLogged');
+                            window.location = '/login';
+                        }}>Logout</FiLogOut>
                     </div>
                 </nav>
           );

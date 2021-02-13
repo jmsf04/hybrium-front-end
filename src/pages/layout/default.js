@@ -5,11 +5,6 @@ import NavBar from "../../components/navBar/navBar";
 export const Default = props => (
     <BrowserRouter>
 
-        <button onClick={() => {
-            localStorage.removeItem('isLogged');
-            window.location = '/login';
-        }}>Logout</button>
-
         <div className="navBar">
             <NavBar/>
         </div>

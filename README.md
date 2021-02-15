@@ -1,7 +1,7 @@
 # Run
 
-- git clone https://github.com/leandreaci/lesson-react-01
-- cd lesson-react-01
+- git clone https://github.com/jmsf04/hybrium-front-end.git frontend
+- cd frontend
 - npm i
 - Após iniciar o back-end:
 - npm run start

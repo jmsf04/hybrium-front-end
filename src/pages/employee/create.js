@@ -14,7 +14,7 @@ export const EmployeeCreate = () => {
             <div className="infoScreenContainer">
                 <Form onSubmit={handleSubmit}>
                     <div className="options">
-                        <p className="title">Aadicionar colaborador</p>
+                        <p className="title">Adicionar colaborador</p>
                         <button type="button" onClick={() => {
                             window.location="/";
                         }} className="inativarB">Cancelar</button>
@@ -48,7 +48,7 @@ export const EmployeeCreate = () => {
                             </div>
                             <div className="info3">
                                 <p className="titleD3">Ocupação</p>
-                                <Input className="tbDados" placeholder="Ocupação do colaborador?" name="role" />
+                                <Input className="tbDados" placeholder="Ocupação do colaborador?" name="occupation" />
                                 <p className="titleD3">Horário de expediente</p>
                                 <div className="add3_1">
                                     <Input className="tbDados" placeholder="Horário de entrada" name="workHourBegin" />

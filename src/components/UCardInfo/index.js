@@ -28,16 +28,16 @@ const UCardInfo = props => (
         <div className="info3">
             <div className="info3_1">
                 <div>
-                    <p className="titleD3">CPF</p>
-                    <p className="dados">999.999.999-99</p>
+                    <p className="titleD3">Ocupação</p>
+                    <p className="dados">{props.employee.occupation}</p>
                 </div>
                 <div className="info3_1_1">
-                    <p className="titleD3">Telefone</p>
-                    <p className="dados">19 99999-9999</p>
+                    <p className="titleD3">Horário de expediente</p>
+                    <p className="dados">{props.employee.workHourBegin} ás {props.employee.workHourEnd}</p>
                 </div>
             </div>
-            <p className="titleD3">E-mail</p>
-            <p className="dados">email@colaborador.com.br</p>
+            <p className="titleD3">Horário de almoço</p>
+            <p className="dados">{props.employee.lunchTimeBegin} ás {props.employee.lunchTimeEnd}</p>
         </div>
     </div>
 );
